@@ -11,7 +11,7 @@ base_url = 'https://www.bayut.com/brokers/essam-afify-2335821.html'
 page = 1  # Start from the first page
 links = []
 
-while page < 2:
+while True:
     # Generate the page-specific URL
     if page == 1:
         url = base_url
