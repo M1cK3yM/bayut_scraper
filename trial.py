@@ -46,18 +46,21 @@ for link in links:
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/h1').text
         currency = driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[1]/div[1]/div/span[1]').text
-        price = driver.find_element(
-            By.XPATH, './/*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[1]/div[1]/div/span[3]').text
-        bedRooms = driver.find_element(
-            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text
-        bathRooms = driver.find_element(
-            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[2]/span[2]/span').text
+        price = int((driver.find_element(
+            By.XPATH, './/*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[1]/div[1]/div/span[3]').text).replace(",", ""))
+        area = int((driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[3]/span[2]/span/span').text).split(" ")[0])
+        bedRooms = 0 if (driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text) == "Studio" else int((driver.find_element(
+                By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text).split(" ")[0])
+        bathRooms = int((driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[2]/span[2]/span').text).split(" ")[0])
         description = driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[1]/div[1]/div/div/div/span').text
         category = driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[2]/ul/li[1]/span[2]').text
-        purpose = driver.find_element(
-            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[2]/ul/li[2]/span[2]').text
+        purpose = (driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[2]/ul/li[2]/span[2]').text).split(" ")[-1]
 
         image_links = []
         amenities = []
@@ -117,10 +120,10 @@ for link in links:
             "title": title,
             "currency": currency,
             "price": price,
-            "bedrooms": bedRooms,
-            "bathrooms": bathRooms,
+            "rooms": bedRooms,
+            "baths": bathRooms,
             "description": description,
-            "category": category,
+            "category": [{"name": category}],
             "purpose": purpose,
             "photos": image_links,
             "amenities": amenities,
