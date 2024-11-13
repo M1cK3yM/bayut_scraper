@@ -49,7 +49,7 @@ for link in links:
         price = int((driver.find_element(
             By.XPATH, './/*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[1]/div[1]/div/span[3]').text).replace(",", ""))
         area = int((driver.find_element(
-            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[3]/span[2]/span/span').text).split(" ")[0])
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[3]/span[2]/span/span').text).split(" ")[0].replace(",", ""))
         bedRooms = 0 if (driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text) == "Studio" else int((driver.find_element(
                 By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text).split(" ")[0])
