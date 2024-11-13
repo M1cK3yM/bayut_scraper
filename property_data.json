@@ -2,12 +2,22 @@
     {
         "title": "20% Down-Payment | Best Location | Q3 2025 | 50/50 Payment Plan",
         "currency": "AED",
-        "price": "650,000",
-        "bedrooms": "Studio",
-        "bathrooms": "1 Bath",
+        "price": 650000,
+        "rooms": 0,
+        "baths": 1,
         "description": "Segrex Homes are designed to inspire. Our vision is to create living spaces that add value and contentment every day, supporting individuals as they journey towards their dreams and aspirations. Strategically built in thoughtfully selected locations, our properties ensure superb long-term returns on investment. From design to delivery, our dedicated team curates every aspect of construction, upholding our promise and commitment to our long-term responsibility to our customers. We believe in creating spaces that enable people to live better lives, which is why we craft homes with meticulous attention to every last detail.  \n\n\nPrime Location in JVC:\nStonehenge Residences offers a prime location in JVC, ensuring easy access to key destinations like Mall of the Emirates and Dubai Marina. Enjoy nearby retail outlets, dining options, and top educational institutions, making it ideal for families and professionals alike.  \n\n\nAdditional Property Features:\n\n Built-in wardrobes\n Kitchen appliances\n Balcony\n Elevator\n Brand new\n Investment property\n Privacy\n New build\n Air conditioning\n Open kitchen\n Shared pool\n\n\nProperty Details & Features:\n\u00b7 1 Bedroom\n\u00b7 2 Bathrooms\n\u00b7 1 Parking Area \n\u00b7 Smart Home Alexa \n\u00b7 Infinity Pool \n\u00b7 Kitchen Appliances \n\u00b7 Gymnasium \n\u00b7 Sauna \n\u00b7 Lounge Space and Garden \n\u00b7 Completion: July 2025\n\n\n\nFor more information . / Contact details / WhatsApp :\nEssam Afify\n\nE-mail address : \nReal Estate Regulatory Agency: 1363997",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Stonehenge Residences",
+            "address_line_2": " JVC District 10",
+            "address_line_1": " Jumeirah Village Circle (JVC)",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747091393-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747091394-800x600.jpeg",
@@ -99,17 +109,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747091393-800x600.jpeg",
+        "slug": "details-10131605",
         "url": "https://www.bayut.com/property/details-10131605.html"
     },
     {
         "title": "30% CASH DISCOUNT l FULLY FURNISHED l HIGH ROI",
         "currency": "AED",
-        "price": "1,668,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 1668000,
+        "rooms": 1,
+        "baths": 2,
         "description": "RA-Tiger Sky Tower at Business Bay by Tiger Properties stands as an iconic addition to the illustrious Dubai skyline, presenting premium branded 1 to 4-bedroom apartments, penthouses and a royal sky penthouse. This shining golden 122-storey high-rise marvel, soon to grace the cityscapes, embodies a fusion of modern architectural brilliance and Emirati cultural heritage. Boasting clean lines and soaring heights, this newly launched tall tower promises to redefine luxury living in the heart of Dubai. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Tiger Sky Tower",
+            "address_line_2": " Business Bay",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747135500-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747135501-800x600.jpeg",
@@ -195,17 +217,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747135500-800x600.jpeg",
+        "slug": "details-10134788",
         "url": "https://www.bayut.com/property/details-10134788.html"
     },
     {
         "title": "FLIXABLE PAYMENT PLAN \u2705 HIGH ROI \u2705 BEST DEAL",
         "currency": "AED",
-        "price": "988,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 988000,
+        "rooms": 1,
+        "baths": 2,
         "description": "RA- FH Residency at JVT is a residential development that redefines urban living with premium studios, 1, 2 and 3-bedroom apartments developed by Forum Real Estate Development. Boasting a G+24 tower with 293 apartments, it caters to diverse needs. Each apartment features high-standard finishing and build-in kitchen appliances, ensuring comfort and convenience. The ground floor hosts a welcoming lobby, a coffee shop, and designated areas for couriers and service staff. \n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "FH Residency",
+            "address_line_2": " JVT District 3",
+            "address_line_1": " Jumeirah Village Triangle (JVT)",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747132803-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747132804-800x600.jpeg",
@@ -290,17 +324,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747132803-800x600.jpeg",
+        "slug": "details-10134556",
         "url": "https://www.bayut.com/property/details-10134556.html"
     },
     {
         "title": "7 YEARS PATMENT PLAN \u2705 HIGHEST TOWER IN THE WORLD \u2705 BEST INVWSTMENT",
         "currency": "AED",
-        "price": "2,144,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 2144000,
+        "rooms": 1,
+        "baths": 2,
         "description": "RA-Tiger Sky Tower at Business Bay by Tiger Properties stands as an iconic addition to the illustrious Dubai skyline, presenting premium branded 1 to 4-bedroom apartments, penthouses and a royal sky penthouse. This shining golden 122-storey high-rise marvel, soon to grace the cityscapes, embodies a fusion of modern architectural brilliance and Emirati cultural heritage. Boasting clean lines and soaring heights, this newly launched tall tower promises to redefine luxury living in the heart of Dubai. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Tiger Sky Tower",
+            "address_line_2": " Business Bay",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747134750-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747134751-800x600.jpeg",
@@ -390,17 +436,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747134750-800x600.jpeg",
+        "slug": "details-10134730",
         "url": "https://www.bayut.com/property/details-10134730.html"
     },
     {
         "title": "20/ PAYMENT PLAN I READY BY DEC 2024 | 3 YEARS PAYMENT PLAN",
         "currency": "AED",
-        "price": "960,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 960000,
+        "rooms": 1,
+        "baths": 2,
         "description": "Discover the epitome of luxury living at Park Residences, located in the prestigious Dubai Residence Complex. This exclusive collection of high-end apartments in DubaiLand offers a harmonious blend of modern design and luxurious finishes, perfect for those who value comfort, elegance, and a lifestyle of leisure. Experience the ultimate in contemporary living, where every detail has been carefully crafted to provide an unparalleled living experience\n\n\nPayment Plans:\n 20/80 Mortgage or Cash\n20% Down Payment\n80% on Handover\n\nAmenities\nSecurity and CCTV\nShared Pool\nKids Play Area\nLobby\nShared gym & fitness\nLeisure areas\nBBQ\nSPA\nBBQ Areas\nBeach Access\nCycling Trails\nFitness Centre\nGardens and Parks\nGreen Surrounding\nMarina & Yacht Club\nMosque\nOutdoor Dining Area\nOutdoor Gymnasium\nOutdoor Pool\nParking Facility\nRestaurant and Cafe\nRetail & Dining Options\nSchools and Institutes\nSpa and Sauna\nSports Court\n\n\nConnectivity\n 20 mins. to Downtown Dubai Mall- 20 mins. to Burj Khalifa\n 20 mins. to Dubai International Airport\n 3 mins. to the Centro\n walking distance to Public Park\n Walking distance to Aquila School\n 5 mins. to Dubai Outlet Mall\n 8 mins. to Silicon Central Mall\n 35 mins. to Palm Jumeirah\n 10 mins. to Global Village\n 12 mins. to University of Dubai\n15 mins. to Sheikh Zayed Road\n\n\n\nFor more information . / Contact details / WhatsApp :\nEssam Afify\n\nE-mail address : \nReal Estate Regulatory Agency: 1363997",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "AARK Residences",
+            "address_line_2": " Dubai Residence Complex",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747079788-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747079789-800x600.jpeg",
@@ -488,17 +546,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747079788-800x600.jpeg",
+        "slug": "details-10131254",
         "url": "https://www.bayut.com/property/details-10131254.html"
     },
     {
         "title": "HANDOVER VER SOON \u2705 3 YEARS POST-HANDOVER \u2705 HIGH END FINISH",
         "currency": "AED",
-        "price": "990,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 990000,
+        "rooms": 1,
+        "baths": 2,
         "description": "RA-Aark Residences at Dubailand is the latest masterpiece by Aark Developers, set to redefine the concept of modern living with luxury 1 and 2 bedroom apartments. This 11-storey residential building is strategically located, where it promises a lifestyle that seamlessly blends contemporary design architecture. With sleek, minimalist interiors, state-of-the-art facilities, and a commitment to sustainability, it promises an opulent residential experience. ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "AARK Residences",
+            "address_line_2": " Dubai Residence Complex",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/746974233-800x600.jpeg",
             "https://images.bayut.com/thumbnails/746974234-800x600.jpeg",
@@ -580,17 +650,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/746974233-800x600.jpeg",
+        "slug": "details-10124661",
         "url": "https://www.bayut.com/property/details-10124661.html"
     },
     {
         "title": "SOON HANDOVER \u2705 3 YEARS PAYMENT PLAN \u2705 SPACIOUS UNITS",
         "currency": "AED",
-        "price": "1,470,000",
-        "bedrooms": "2 Beds",
-        "bathrooms": "3 Baths",
+        "price": 1470000,
+        "rooms": 2,
+        "baths": 3,
         "description": "RA-Aark Residences at Dubailand is the latest masterpiece by Aark Developers, set to redefine the concept of modern living with luxury 1 and 2 bedroom apartments. This 11-storey residential building is strategically located, where it promises a lifestyle that seamlessly blends contemporary design architecture. With sleek, minimalist interiors, state-of-the-art facilities, and a commitment to sustainability, it promises an opulent residential experience. ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "AARK Residences",
+            "address_line_2": " Dubai Residence Complex",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/746974968-800x600.jpeg",
             "https://images.bayut.com/thumbnails/746974969-800x600.jpeg",
@@ -668,123 +750,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/746974968-800x600.jpeg",
+        "slug": "details-10124702",
         "url": "https://www.bayut.com/property/details-10124702.html"
-    },
-    {
-        "title": "Pay cash and get 30% discount / Burj Khalifa view, Dubai Canal View",
-        "currency": "AED",
-        "price": "1,650,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
-        "description": "Tiger Sky Tower at Business Bay by Tiger Properties stands as an iconic addition to the illustrious Dubai skyline, presenting premium branded 1 to 4-bedroom apartments, penthouses and a royal sky penthouse. This shining golden 122-storey high-rise marvel, soon to grace the cityscapes, embodies a fusion of modern architectural brilliance and Emirati cultural heritage. Boasting clean lines and soaring heights, this newly launched tall tower promises to redefine luxury living in the heart of Dubai.  \n\nKey Highlights:-\n\nOffering a diverse range of 1 to 4-bedroom apartments, 18 exclusive penthouses, and a royal sky penthouse, all meticulously designed for unparalleled living experience.  \nSoaring to an impressive 532 meters with 122 floors, stands as the tallest residential building in the world, featuring an iconic design.  \nThe tower offers customizable penthouses in Arabic, Chinese, Greek, and French styles, \nallowing residents to personalize their homes to reflect their unique lifestyles.  \nAt 447 meters, the tower boasts the highest rainforest, offering residents a unique and serene escape amidst lush greenery and natural beauty.  \nThe tower includes the highest restaurant at 439 meters and the highest infinity pool at 431 meters, providing with unmatched dining experiences and breathtaking views.  \n\nKey Facilities:\n\nState of the art Gym\nSwimming Pool\nConcierge Services\nClubhouse\nHome Cinema\nSports and Entertainment\nKids Play Areas\nFitness Zones\nGymnasium",
-        "category": "Apartment",
-        "purpose": "For Sale",
-        "photos": [
-            "https://images.bayut.com/thumbnails/746845456-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845464-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845465-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845466-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845468-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845469-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845471-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845472-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845473-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845474-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845476-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845477-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845479-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845483-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845484-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845485-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845488-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845491-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845494-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845495-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845498-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845518-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845519-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845520-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845521-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845522-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845523-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845524-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845525-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845526-800x600.jpeg",
-            "https://images.bayut.com/thumbnails/746845527-800x600.jpeg"
-        ],
-        "amenities": [
-            {
-                "FEATURES": [
-                    "Furnished",
-                    "Electricity Backup",
-                    "Centrally Air-Conditioned",
-                    "Central Heating",
-                    "Double Glazed Windows"
-                ]
-            },
-            {
-                "BUILDING": [
-                    "Balcony or Terrace",
-                    "Lobby in Building",
-                    "Service Elevators"
-                ]
-            },
-            {
-                "HEALTH AND FITNESS": [
-                    "First Aid Medical Center",
-                    "Gym or Health Club",
-                    "Facilities for Disabled",
-                    "Swimming Pool",
-                    "Jacuzzi",
-                    "Sauna",
-                    "Steam Room"
-                ]
-            },
-            {
-                "RECREATION AND FAMILY": [
-                    "Day Care Center",
-                    "Kids Play Area",
-                    "Lawn or Garden",
-                    "Barbeque Area",
-                    "Cafeteria or Canteen"
-                ]
-            },
-            {
-                "CLEANING AND MAINTENANCE": [
-                    "Waste Disposal",
-                    "Maintenance Staff"
-                ]
-            },
-            {
-                "BUSINESS AND SECURITY": [
-                    "Security Staff"
-                ]
-            },
-            {
-                "TECHNOLOGY": [
-                    "Broadband Internet",
-                    "Satellite/Cable TV",
-                    "Intercom"
-                ]
-            },
-            {
-                "MISCELLANEOUS": [
-                    "24 Hours Concierge",
-                    "Freehold"
-                ]
-            }
-        ],
-        "url": "https://www.bayut.com/property/details-10116932.html"
     },
     {
         "title": "LAST 2 UNITS 1 BHK \u2705 NEAR DUBAI \u2705 SEA VIEW",
         "currency": "AED",
-        "price": "830,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 830000,
+        "rooms": 1,
+        "baths": 2,
         "description": "RA-Discover the Faradis Tower at Sharjah, an exclusive 50-storey development by Tiger Properties in the bustling Al Mamzar with premium class 1, 2, 3 & 4-bedroom apartments. With its sleek design and premium features, this architectural masterpiece stands tall as a beacon of sophistication in Dubai's skyline. Each apartment within the tower is meticulously crafted to offer residents a harmonious blend of comfort, elegance, and modern convenience. ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Faradis Tower",
+            "address_line_2": " Al Mamzar",
+            "address_line_1": " Sharjah",
+            "city": " Sharjah"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747308940-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747308941-800x600.jpeg",
@@ -874,17 +862,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747308940-800x600.jpeg",
+        "slug": "details-10146076",
         "url": "https://www.bayut.com/property/details-10146076.html"
     },
     {
         "title": "SMART HOME | HANDOVER 2025 | EASY PAYMENT PLAN | MASSIVE LAYOUT",
         "currency": "AED",
-        "price": "1,075,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 1075000,
+        "rooms": 1,
+        "baths": 2,
         "description": "Segrex Homes are designed to inspire. Our vision is to create living spaces that add value and contentment every day, supporting individuals as they journey towards their dreams and aspirations. Strategically built in thoughtfully selected locations, our properties ensure superb long-term returns on investment. From design to delivery, our dedicated team curates every aspect of construction, upholding our promise and commitment to our long-term responsibility to our customers. We believe in creating spaces that enable people to live better lives, which is why we craft homes with meticulous attention to every last detail.  \n\n\nPrime Location in JVC:\nStonehenge Residences offers a prime location in JVC, ensuring easy access to key destinations like Mall of the Emirates and Dubai Marina. Enjoy nearby retail outlets, dining options, and top educational institutions, making it ideal for families and professionals alike.  \n\n\nAdditional Property Features:\n\n Built-in wardrobes\n Kitchen appliances\n Balcony\n Elevator\n Brand new\n Investment property\n Privacy\n New build\n Air conditioning\n Open kitchen\n Shared pool\n\n\nProperty Details & Features:\n\u00b7 1 Bedroom\n\u00b7 2 Bathrooms\n\u00b7 1 Parking Area \n\u00b7 Smart Home Alexa \n\u00b7 Infinity Pool \n\u00b7 Kitchen Appliances \n\u00b7 Gymnasium \n\u00b7 Sauna \n\u00b7 Lounge Space and Garden \n\u00b7 Completion: July 2025\n\n\n\nFor more information . / Contact details / WhatsApp :\nEssam Afify\n\nE-mail address : \nReal Estate Regulatory Agency: 1363997",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Stonehenge Residences",
+            "address_line_2": " JVC District 10",
+            "address_line_1": " Jumeirah Village Circle (JVC)",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747093106-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747093107-800x600.jpeg",
@@ -983,17 +983,147 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747093106-800x600.jpeg",
+        "slug": "details-10132115",
         "url": "https://www.bayut.com/property/details-10132115.html"
+    },
+    {
+        "title": "Pay cash and get 30% discount / Burj Khalifa view, Dubai Canal View",
+        "currency": "AED",
+        "price": 1650000,
+        "rooms": 1,
+        "baths": 2,
+        "description": "Tiger Sky Tower at Business Bay by Tiger Properties stands as an iconic addition to the illustrious Dubai skyline, presenting premium branded 1 to 4-bedroom apartments, penthouses and a royal sky penthouse. This shining golden 122-storey high-rise marvel, soon to grace the cityscapes, embodies a fusion of modern architectural brilliance and Emirati cultural heritage. Boasting clean lines and soaring heights, this newly launched tall tower promises to redefine luxury living in the heart of Dubai.  \n\nKey Highlights:-\n\nOffering a diverse range of 1 to 4-bedroom apartments, 18 exclusive penthouses, and a royal sky penthouse, all meticulously designed for unparalleled living experience.  \nSoaring to an impressive 532 meters with 122 floors, stands as the tallest residential building in the world, featuring an iconic design.  \nThe tower offers customizable penthouses in Arabic, Chinese, Greek, and French styles, \nallowing residents to personalize their homes to reflect their unique lifestyles.  \nAt 447 meters, the tower boasts the highest rainforest, offering residents a unique and serene escape amidst lush greenery and natural beauty.  \nThe tower includes the highest restaurant at 439 meters and the highest infinity pool at 431 meters, providing with unmatched dining experiences and breathtaking views.  \n\nKey Facilities:\n\nState of the art Gym\nSwimming Pool\nConcierge Services\nClubhouse\nHome Cinema\nSports and Entertainment\nKids Play Areas\nFitness Zones\nGymnasium",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Tiger Sky Tower",
+            "address_line_2": " Business Bay",
+            "address_line_1": " Dubai",
+            "city": " Dubai"
+        },
+        "photos": [
+            "https://images.bayut.com/thumbnails/746845456-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845464-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845465-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845466-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845468-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845469-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845471-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845472-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845473-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845474-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845476-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845477-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845479-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845483-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845484-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845485-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845488-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845491-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845494-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845495-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845498-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845518-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845519-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845520-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845521-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845522-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845523-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845524-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845525-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845526-800x600.jpeg",
+            "https://images.bayut.com/thumbnails/746845527-800x600.jpeg"
+        ],
+        "amenities": [
+            {
+                "FEATURES": [
+                    "Furnished",
+                    "Electricity Backup",
+                    "Centrally Air-Conditioned",
+                    "Central Heating",
+                    "Double Glazed Windows"
+                ]
+            },
+            {
+                "BUILDING": [
+                    "Balcony or Terrace",
+                    "Lobby in Building",
+                    "Service Elevators"
+                ]
+            },
+            {
+                "HEALTH AND FITNESS": [
+                    "First Aid Medical Center",
+                    "Gym or Health Club",
+                    "Facilities for Disabled",
+                    "Swimming Pool",
+                    "Jacuzzi",
+                    "Sauna",
+                    "Steam Room"
+                ]
+            },
+            {
+                "RECREATION AND FAMILY": [
+                    "Day Care Center",
+                    "Kids Play Area",
+                    "Lawn or Garden",
+                    "Barbeque Area",
+                    "Cafeteria or Canteen"
+                ]
+            },
+            {
+                "CLEANING AND MAINTENANCE": [
+                    "Waste Disposal",
+                    "Maintenance Staff"
+                ]
+            },
+            {
+                "BUSINESS AND SECURITY": [
+                    "Security Staff"
+                ]
+            },
+            {
+                "TECHNOLOGY": [
+                    "Broadband Internet",
+                    "Satellite/Cable TV",
+                    "Intercom"
+                ]
+            },
+            {
+                "MISCELLANEOUS": [
+                    "24 Hours Concierge",
+                    "Freehold"
+                ]
+            }
+        ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/746845456-800x600.jpeg",
+        "slug": "details-10116932",
+        "url": "https://www.bayut.com/property/details-10116932.html"
     },
     {
         "title": "Own your unit fully furnished in a small residential complex with the best views",
         "currency": "AED",
-        "price": "1,100,000",
-        "bedrooms": "1 Bed",
-        "bathrooms": "2 Baths",
+        "price": 1100000,
+        "rooms": 1,
+        "baths": 2,
         "description": "Red Square Tower at JVT is a luxurious new development by Tiger Properties offering residents a world of convenience and comfort with studios, 1 & 2-bedroom apartments. This architectural masterpiece stands tall in the vibrant city space of Dubai, offering residents a testament to architectural brilliance and opulence.   \nSituated strategically within the well-developed community of JVT, the development enjoys a prime location. JVT is renowned for its urban attractions and essential amenities, providing an ideal and thriving lifestyle for its residents. With easy access to Al Khail Road and Sheikh Mohammed Bin Zayed Road, residents can conveniently reach distant landmarks across the city, adding unparalleled convenience to their daily lives.  \n\n*Exclusive Offers:*  \n- *Full Payment Discounts:* Significant savings for those opting to pay in full.   \n- *Flexible Payment Plans:* Tailored options to meet diverse financial needs.  \n\n*Apartment Features & Amenities:*  \n- Prime Location within Jumeirah Village Triangle  \n- Premium Finishes with High-End Materials  \n- Built-in Wardrobes  \n- Fully Equipped Modern Kitchens  \n- Private Balconies  \n- Allocated Parking Space  \n- State-of-the-Art Gymnasium  \n- Multiple Swimming Pools  \n- Landscaped Parks and Play Areas  \n- Community Center and Day Care Facilities  \n- Family-Oriented Active and Relaxation Zones  \n- Shaded Walkways  \n- Racing and Jogging Tracks  \n- Open, Spacious Walking Areas  \n- Central Air Conditioning  \n- Covered Parking  \n- 24/7 Security Services  \n- Private Garden Spaces\n\n\nFor more information . / Contact details / WhatsApp :\nEssam Afify\n\nE-mail address : \nReal Estate Regulatory Agency: 1363997",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "Red Square",
+            "address_line_2": " JVT District 3",
+            "address_line_1": " Jumeirah Village Triangle (JVT)",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747019804-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747019805-800x600.jpeg",
@@ -1085,17 +1215,29 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747019804-800x600.jpeg",
+        "slug": "details-10127561",
         "url": "https://www.bayut.com/property/details-10127561.html"
     },
     {
         "title": "SPACIOUS LAYOUT \u2705 HIGH END FINISH \u2705 HIGH ROI",
         "currency": "AED",
-        "price": "1,520,000",
-        "bedrooms": "2 Beds",
-        "bathrooms": "3 Baths",
+        "price": 1520000,
+        "rooms": 2,
+        "baths": 3,
         "description": "RA- FH Residency at JVT is a residential development that redefines urban living with premium studios, 1, 2 and 3-bedroom apartments developed by Forum Real Estate Development. Boasting a G+24 tower with 293 apartments, it caters to diverse needs. Each apartment features high-standard finishing and build-in kitchen appliances, ensuring comfort and convenience. The ground floor hosts a welcoming lobby, a coffee shop, and designated areas for couriers and service staff. \n\n\n\n\n\n\n\n\n\n\n\n\n\n ",
-        "category": "Apartment",
-        "purpose": "For Sale",
+        "category": [
+            {
+                "name": "Apartment"
+            }
+        ],
+        "purpose": "Sale",
+        "location": {
+            "building_name": "FH Residency",
+            "address_line_2": " JVT District 3",
+            "address_line_1": " Jumeirah Village Triangle (JVT)",
+            "city": " Dubai"
+        },
         "photos": [
             "https://images.bayut.com/thumbnails/747132934-800x600.jpeg",
             "https://images.bayut.com/thumbnails/747132935-800x600.jpeg",
@@ -1181,6 +1323,8 @@
                 ]
             }
         ],
+        "coverPhoto_url": "https://images.bayut.com/thumbnails/747132934-800x600.jpeg",
+        "slug": "details-10134563",
         "url": "https://www.bayut.com/property/details-10134563.html"
     }
 ]

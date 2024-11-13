@@ -61,6 +61,20 @@ for link in links:
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[2]/ul/li[1]/span[2]').text
         purpose = (driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[3]/div[1]/div/div[2]/ul/li[2]/span[2]').text).split(" ")[-1]
+        l = (driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[2]').text)
+        location = {
+            "building_name": l.split(",")[0],
+            "address_line_2": l.split(",")[1],
+            "address_line_1": l.split(",")[-2],
+            "city": l.split(",")[-1]
+        }
+        ownerAgent = {
+            "name": driver.find_element(By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[5]/div[1]/div/div[1]/div[1]/div[2]/span/a/h2').text,
+            "state": "Available",
+            "user_image": driver.find_element(By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[5]/div[1]/div/div[1]/div[1]/div[1]/picture/img').get_attribute('src')
+        }
+        slug = link.split("/")[-1].split(".")[0]
 
         image_links = []
         amenities = []
@@ -122,11 +136,16 @@ for link in links:
             "price": price,
             "rooms": bedRooms,
             "baths": bathRooms,
+            "area": area,
             "description": description,
             "category": [{"name": category}],
             "purpose": purpose,
+            "location": location,
             "photos": image_links,
             "amenities": amenities,
+            "coverPhoto_url": image_links[0],
+            "ownerAgent": ownerAgent,
+            "slug": slug,
             "url": link
         })
         print(data)
