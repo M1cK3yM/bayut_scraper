@@ -4,8 +4,26 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.options import Options
 
-driver = webdriver.Chrome()
+# Set up Chrome options
+chrome_options = Options()
+
+chrome_options.add_experimental_option(
+    "prefs",
+    {
+        "profile.managed_default_content_settings.images": 2,
+        "profile.managed_default_content_settings.stylesheet": 2,
+        "profile.managed_default_content_settings.fonts": 2,
+    },
+)
+chrome_options.add_argument("--blink-settings=imagesEnabled=false")
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument("--load-extension=Adblock-Plus_v3.21.1.crx")
+
+driver = webdriver.Chrome(options=chrome_options)
 
 base_url = 'https://www.bayut.com/brokers/essam-afify-2335821.html'
 page = 1  # Start from the first page
@@ -37,6 +55,7 @@ while True:
 
     page += 1
 
+    print("page " + str(page) + " loaded")
 data = []
 # Print the collected links
 for link in links:
@@ -148,7 +167,21 @@ for link in links:
             "slug": slug,
             "url": link
         })
-        print(data)
+        print({
+            "title": title,
+            "currency": currency,
+            "price": price,
+            "rooms": bedRooms,
+            "baths": bathRooms,
+            "area": area,
+            "category": [{"name": category}],
+            "purpose": purpose,
+            "location": location,
+            "coverPhoto_url": image_links[0],
+            "ownerAgent": ownerAgent,
+            "slug": slug,
+            "url": link
+        })
     except NoSuchElementException:
         continue
 
