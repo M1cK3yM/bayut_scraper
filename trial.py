@@ -1,4 +1,5 @@
 import json
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
@@ -7,29 +8,41 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
 # Set up Chrome options
-chrome_options = Options()
+# chrome_options = Options()
+#
+# chrome_options.add_experimental_option(
+#     "prefs",
+#     {
+#         "profile.managed_default_content_settings.images": 2,
+#         "profile.managed_default_content_settings.stylesheet": 2,
+#         "profile.managed_default_content_settings.fonts": 2,
+#     },
+# )
+# chrome_options.add_argument("--blink-settings=imagesEnabled=false")
+# chrome_options.add_argument('--disable-gpu')
+# chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--no-sandbox')
+# chrome_options.add_argument("--load-extension=Adblock-Plus_v3.21.1.crx")
 
-chrome_options.add_experimental_option(
-    "prefs",
-    {
-        "profile.managed_default_content_settings.images": 2,
-        "profile.managed_default_content_settings.stylesheet": 2,
-        "profile.managed_default_content_settings.fonts": 2,
-    },
-)
-chrome_options.add_argument("--blink-settings=imagesEnabled=false")
-chrome_options.add_argument('--disable-gpu')
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument("--load-extension=Adblock-Plus_v3.21.1.crx")
+driver = webdriver.Chrome()
 
-driver = webdriver.Chrome(options=chrome_options)
-
+separtor = ","
+num_page = float('inf')
+studio = "Studio"
 base_url = 'https://www.bayut.com/brokers/essam-afify-2335821.html'
+
+if len(sys.argv) > 1:
+    if sys.argv[1] == "ar":
+        base_url = 'https://www.bayut.com/ar/brokers/essam-afify-2335821.html'
+        separtor = "،"
+        studio = "استوديو"
+    else:
+        print("invalid argument")
+        print("command: python trial <ar> <num_page>")
 page = 1  # Start from the first page
 links = []
 
-while True:
+while page < num_page:
     # Generate the page-specific URL
     if page == 1:
         url = base_url
@@ -70,7 +83,7 @@ for link in links:
         area = int((driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[3]/span[2]/span/span').text).split(" ")[0].replace(",", ""))
         bedRooms = 0 if (driver.find_element(
-            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text) == "Studio" else int((driver.find_element(
+            By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text) == "استوديو" else int((driver.find_element(
                 By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[1]/span[2]/span').text).split(" ")[0])
         bathRooms = int((driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[3]/div[2]/span[2]/span').text).split(" ")[0])
@@ -83,10 +96,10 @@ for link in links:
         l = (driver.find_element(
             By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[4]/div[1]/div[2]').text)
         location = {
-            "building_name": l.split(",")[0],
-            "address_line_2": l.split(",")[1],
-            "address_line_1": l.split(",")[-2],
-            "city": l.split(",")[-1]
+            "building_name": l.split(separtor)[0],
+            "address_line_2": l.split(separtor)[1],
+            "address_line_1": l.split(separtor)[-2],
+            "city": l.split(separtor)[-1]
         }
         ownerAgent = {
             "name": driver.find_element(By.XPATH, '//*[@id="body-wrapper"]/main/div[2]/div[5]/div[1]/div/div[1]/div[1]/div[2]/span/a/h2').text,
@@ -186,5 +199,5 @@ for link in links:
         continue
 
 # Save data to JSON file
-with open("property_data.json", "w") as file:
-    json.dump(data, file, indent=4)
+with open("property_data.json", "w", encoding="utf-8") as file:
+    json.dump(data, file, ensure_ascii=False, indent=4)
